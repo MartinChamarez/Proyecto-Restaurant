@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagina Flexbox</title>
+    <link rel="stylesheet" href="PaginaStylo.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@600&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"> 
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kotta+One&display=swap" rel="stylesheet">
+
+</head>
+<body>  
+    
+  <style>
+    body{
+  background-image: url(../img/canelones-hover.png);
+  background-size: cover;
+  display: flex;
+  /* Los colocamos en columnas y usamos nowrap para que todo se adapte al tamaño que queremos */
+  flex-flow: column nowrap;
+  }
+  </style>
+
+    <header>
+      <div class="nombre">
+        <h1>Pastas</h1>
+      </div> 
+    </header>
+ 
+    <Main>
+      <section class="container">
+        <div class="cajaNombres">
+          <div class="caja1"><p>Tallarines</p> </div>
+          <div class="caja2"><p>Ravioles</p> </div>
+          <div class="caja3"><p>Ñoquis</p></div>
+          <div class="caja4"><p>Canelones</p></div>
+          <div class="caja5"><p>Sorentinos/p></div>
+        </div>
+        <div class="cajaPrecio">
+          <div class="precio1"><p>$350</p> <a href="#">Encargar</a></div>
+          <div class="precio2"><p>$420</p> <a href="#">Encargar</a></div>
+          <div class="precio3"><p>$410</p> <a href="#">Encargar</a></div>
+          <div class="precio4"><p>$490</p> <a href="#">Encargar</a></div>
+          <div class="precio5"><p>$480</p> <a href="#">Encargar</a></div>
+        </div>
+      </section>
+    </Main>
+   
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid logo">
+        <img src="../img/Logo-pizza.png.png" alt="Logo">
+        <div class="letrasMenu"></div>
+        <li class="nav-item inicio">
+          <a class="nav-link active" aria-current="page" href="../index.html">INICIO</a>
+        </li>
+    <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">MENU</a>
+      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <li><a class="dropdown-item" href="./pizza.html">Pizzas</a></li>
+        <li><a class="dropdown-item" href="./hamburguesa.html">Hamburguesas</a></li>
+        <li><a class="dropdown-item" href="./canes.html">Carnes</a></li>
+        <li><a class="dropdown-item" href="./pastas.html">Pastas</a></li>
+        <li><a class="dropdown-item" href="./sandwich.html">Sandwiches</a></li>
+        <li><a class="dropdown-item" href="./bebibas.html">bebidas</a></li>
+        <li><hr class="dropdown-divider"></li>
+        <li><a class="dropdown-item" href="#">Combos</a></li>
+      </ul>
+    </li>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Top Comidas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Promos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">+54 3485-258499</a>
+            </li>
+          </ul>
+
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Encuentra aquí lo que deseas" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>  
+        </div>
+    </nav>
+
+    <footer>
+      <div class="logo2"><img src="../img/Logo-pizza.png.png" alt="">
+        <h6>Mozzarella Restaurant</h6> 
+      </div>
+      <div class="mapa"> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3539.9265006670003!2d-58.80864528494311!3d-27.471547482890088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94456b6ca10e6e2b%3A0xa03f567172e58c10!2sCentenario%20Shopping!5e0!3m2!1ses!2sar!4v1633179358829!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+      <a href="https://es-la.facebook.com/MartinC11">copyright© 2021 Martin Chamarez</a>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</body>
+</html>
