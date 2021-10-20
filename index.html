@@ -17,6 +17,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet"> 
 
+<script src="https://kit.fontawesome.com/dd1a710fc6.js" crossorigin="anonymous"></script>
+
 </head>
 <body>  
     
@@ -48,7 +50,35 @@
         </div> 
       </artivle>
     </main>
+
+   
+
+  <section class="section">
+    <button class="btn btn-warning" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">Sobre Nosotros
+      <i class="fas fa-chevron-up"></i>
       
+    </button>
+
+    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasBottomLabel">Redes Sociales: </h5>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href=""><i class="fab fa-instagram"></i></a>
+        <a href=""><i class="fab fa-twitter-square"> </i></a>
+        <a href=""><i class="fab fa-whatsapp"></i></a>
+        
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body small">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, laudantium asperiores distinctio ipsum, rerum nostrum molestias placeat, officiis inventore dolorum voluptates reiciendis sapiente. Cupiditate, praesentium? Laboriosam, quia. Eius, aperiam sit.</p>
+        <p>Contactanos: +54 3485-258499</p> 
+        <p>Email: mozzarelaRestaurant@gmail.com</p>
+        <p>copyright© 2021 Martin Chamarez</p>
+         
+      </div>
+    </div>
+  </section>
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid logo">
           <img src="./img/Logo-pizza.png.png" alt="Logo">
@@ -78,17 +108,22 @@
               <a class="nav-link active" aria-current="page" href="#">Promos</a>
             </li>
             <li class="nav-items">
-              <a class="nav-link disabled">+54 3485-258499</a>
+              <a class="nav-link disabled"><i class="fas fa-phone-alt"></i> +54 3485-258499</a>
             </li>
           </ul>
 
           <form class="d-flex">
             <input class="form-control me-2" type="search" placeholder="Encuentra aquí lo que deseas" aria-label="Search">
             <button class="btn btn-outline-success" type="submit">Buscar</button>
+            
           </form>
+            <div class="carrito">
+              <a href="#"><i class="fas fa-shopping-cart"></i></a>
+            </div>
         </div>  
         </div>
     </nav>
+
 
     <footer>
       <div class="logo2"><img src="./img/Logo-pizza.png.png" alt="">
