@@ -164,6 +164,7 @@ footer{
         width: 400px;
         height:70px;
         border-radius: 20px;
+        margin-left: 85%;
     }
 
     @media (max-width: 1900px){
