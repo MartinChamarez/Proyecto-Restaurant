@@ -32,37 +32,11 @@
   background-image: url(../img/bebidas-hover.jpg);
   background-size: cover;
   display: flex;
-  /* Los colocamos en columnas y usamos nowrap para que todo se adapte al tamaño que queremos */
   flex-flow: column nowrap;
   }
   </style>
 
-    <header>
-      <div class="nombre">
-        <h1>Bebidas</h1>
-      </div> 
-    </header>
- 
-    <Main>
-      <section class="container">
-        <div class="cajaNombres">
-          <div class="caja1"><p>Agua Mineral 1L</p> </div>
-          <div class="caja2"><p>Gaseosas 1L</p></div>
-          <div class="caja3"><p>Cerveza</p></div>
-          <div class="caja4"><p>Vinos</p></div>
-          <div class="caja5"><p>Daiquiri</p></div>
-        </div>
-        <div class="cajaPrecio">
-          <div class="precio1"><p>$120</p> <a href="#">Encargar</a></div>
-          <div class="precio2"><p>$220</p> <a href="#">Encargar</a></div>
-          <div class="precio3"><p>$230</p> <a href="#">Encargar</a></div>
-          <div class="precio4"><p>$240</p> <a href="#">Encargar</a></div>
-          <div class="precio5"><p>$410</p> <a href="#">Encargar</a></div>
-        </div>
-      </section>
-    </Main>
-   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg ">
       <div class="container-fluid logo">
         <img src="../img/Logo-pizza.png.png" alt="Logo">
         <li class="nav-item inicio">
@@ -93,13 +67,13 @@
               <a class="nav-link active" aria-current="page" href="#">Promos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled">+54 3485-258499</a>
+              <a class="nav-link disabled text-secondary"><i class="fas fa-phone-alt"></i>+54 3485-258499</a>
             </li>
           </ul>
 
           <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Encuentra aquí lo que deseas" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+            <input class="form-control me-2 border-warning" type="search" placeholder="Encuentra aquí lo que deseas" aria-label="Search">
+            <button class="btn btn-outline-warning" type="submit">Buscar</button>
           </form>
           <div class="carrito">
             <a href=""><i class="fas fa-shopping-cart"></i></a>
@@ -107,6 +81,32 @@
         </div>  
         </div>
     </nav>
+
+    <header>
+      <div class="nombre">
+        <h1>Bebidas</h1>
+      </div> 
+    </header>
+ 
+    <Main>
+      <section class="container">
+        <div class="cajaNombres">
+          <div class="caja1"><p>Agua Mineral 1L</p> </div>
+          <div class="caja2"><p>Gaseosas 1L</p></div>
+          <div class="caja3"><p>Cerveza</p></div>
+          <div class="caja4"><p>Vinos</p></div>
+          <div class="caja5"><p>Daiquiri</p></div>
+        </div>
+        <div class="cajaPrecio">
+          <div class="precio1"><p>$120</p> <a href="#">Encargar</a></div>
+          <div class="precio2"><p>$220</p> <a href="#">Encargar</a></div>
+          <div class="precio3"><p>$230</p> <a href="#">Encargar</a></div>
+          <div class="precio4"><p>$240</p> <a href="#">Encargar</a></div>
+          <div class="precio5"><p>$410</p> <a href="#">Encargar</a></div>
+        </div>
+      </section>
+    </Main>
+   
 
     <footer>
       <div class="logo2"><img src="../img/Logo-pizza.png.png" alt="">
